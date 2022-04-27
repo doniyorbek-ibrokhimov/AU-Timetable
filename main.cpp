@@ -15,9 +15,7 @@ int main() {
 
 vector<string> reader(string file_name) {
     string search_term;
-    string search;
-    getline(cin, search);
-    search_term = search;
+    getline(cin, search_term);
     vector<string> record;
     ifstream file;
     file.open(file_name);
