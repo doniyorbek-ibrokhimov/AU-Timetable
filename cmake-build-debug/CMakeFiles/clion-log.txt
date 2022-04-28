@@ -1,4 +1,16 @@
-/private/var/folders/j5/c2434xyd7wd9fbg4ln0c5gq00000gx/T/AppTranslocation/A3E79645-42C3-4161-BF06-78A1084460ED/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/ac2952602/CLionProjects/AU-Timetable -B /Users/ac2952602/CLionProjects/AU-Timetable/cmake-build-debug
+"D:\Install\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\Project for Final Exam\GitHub repos"
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/Install/CLion 2021.3.3/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/Install/CLion 2021.3.3/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/ac2952602/CLionProjects/AU-Timetable/cmake-build-debug
+-- Build files have been written to: D:/Project for Final Exam/GitHub repos/cmake-build-debug

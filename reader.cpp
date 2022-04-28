@@ -17,14 +17,14 @@ vector<string> reader(string file_name) {
     string field_two;
     string field_three;
     string field_four;
-    string field_five;
+    //string field_five;
 
     while (getline(file, field_one, ',') && !found_record) {
 
         getline(file, field_two, ',');
         getline(file, field_three, ',');
         getline(file, field_four, ',');
-        getline(file, field_five, '\n');
+        //getline(file, field_five, '\n');
 
         if (field_one == search_term) {
             found_record = true;
@@ -32,7 +32,7 @@ vector<string> reader(string file_name) {
             record.push_back(field_two);
             record.push_back(field_three);
             record.push_back(field_four);
-            record.push_back(field_five);
+            //record.push_back(field_five);
         }
     }
     for (auto i: record) {
