@@ -1,0 +1,9 @@
+# ninja log v5
+4	1389	6727752649780171	CMakeFiles/AU_Timetable.dir/main.cpp.obj	1f1f3d62bf2805fa
+1389	1625	6727752652123360	AU_Timetable.exe	8b0aae23c2d4383e
+4	848	6728292080651598	CMakeFiles/AU_Timetable.dir/main.cpp.obj	1f1f3d62bf2805fa
+36	875	6728292080807807	CMakeFiles/AU_Timetable.dir/cases.cpp.obj	601d3bbf015f8fe3
+31	953	6728292081745384	CMakeFiles/AU_Timetable.dir/reader.cpp.obj	85ce08ccfeee7c33
+953	1252	6728292084561769	AU_Timetable.exe	9fb4357e943798d4
+5	560	6728292268704250	CMakeFiles/AU_Timetable.dir/main.cpp.obj	1f1f3d62bf2805fa
+560	778	6728292270735921	AU_Timetable.exe	9fb4357e943798d4
