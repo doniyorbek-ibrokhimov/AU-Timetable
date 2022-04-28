@@ -12,4 +12,5 @@ void cases() {
     else if (group_number == 2) vector<string> se2102 = reader("timetable_se2102.txt");
     else if (group_number == 3) vector<string> se2103 = reader("timetable_se2103.txt");
     else if (group_number == 4) vector<string> se2104 = reader("timetable_se2104.txt");
+
 }
