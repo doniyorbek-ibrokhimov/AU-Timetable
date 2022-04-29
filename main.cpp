@@ -1,5 +1,6 @@
 #include "cases.h"
 
+
 int main() {
     cases();
 

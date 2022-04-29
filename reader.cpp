@@ -35,10 +35,16 @@ vector<string> reader(string file_name) {
             record.push_back(field_five);
         }
     }
-    cout <<"timetable for ";
+
+    string union_field = field_one + field_two + field_three + field_four + field_five;
+
+    cout << "timetable for ";
     for (auto i: record) {
         cout << i << '\n';
     }
+    string command = "espeak \"" + union_field + "\"";
+    const char *charCommand = command.c_str();
+    system(charCommand);
 
     return record;
 }
