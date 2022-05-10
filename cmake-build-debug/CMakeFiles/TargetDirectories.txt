@@ -1,3 +1,3 @@
-D:/Project for Final Exam/GitHub repos/cmake-build-debug/CMakeFiles/AU_Timetable.dir
-D:/Project for Final Exam/GitHub repos/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Project for Final Exam/GitHub repos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/teurmalikkudratov/CLionProjects/AU-Timetable/cmake-build-debug/CMakeFiles/AU_Timetable.dir
+/Users/teurmalikkudratov/CLionProjects/AU-Timetable/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/teurmalikkudratov/CLionProjects/AU-Timetable/cmake-build-debug/CMakeFiles/rebuild_cache.dir

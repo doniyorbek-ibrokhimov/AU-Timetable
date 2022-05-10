@@ -1,3 +1,3 @@
-Monday,Calculus,English Speaking,English Writing
+Monday,Calculus,English Speaking,English Writing, Good day!
 Tuesday,ICT Tools, Calculus 1, Discrete Maths
 

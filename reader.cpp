@@ -5,8 +5,12 @@
 
 vector<string> reader(string file_name) {
     string search_term;
+
+
     cout << "Enter the day you want to see: " << flush;
     cin >> search_term;
+    transform(search_term.begin(), search_term.end(), search_term.begin(), ::toupper);
+    cout<<search_term ;
     vector<string> record;
     ifstream file;
     file.open(file_name);
@@ -38,7 +42,7 @@ vector<string> reader(string file_name) {
 
     string union_field = field_one + field_two + field_three + field_four + field_five;
 
-    cout << "timetable for ";
+    cout << "Timetable for ";
     for (auto i: record) {
         cout << i << '\n';
     }

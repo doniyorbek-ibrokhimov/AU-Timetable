@@ -8,7 +8,7 @@
 #include <fstream>
 #include <string>
 #include <vector>
-#include <windows.h>
+//#include <windows.h>
 using namespace std;
 
 vector<string> reader(string file_name);
