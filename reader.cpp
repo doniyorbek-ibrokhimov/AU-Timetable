@@ -2,6 +2,8 @@
 // Created by Ubisoft Team on 28/04/2022.
 //
 #include "reader.h"
+#include <iostream>
+
 
 vector<string> reader(string file_name) {
     string search_term;
@@ -10,7 +12,7 @@ vector<string> reader(string file_name) {
     cout << "Enter the day you want to see: " << flush;
     cin >> search_term;
     transform(search_term.begin(), search_term.end(), search_term.begin(), ::toupper);
-    cout<<search_term ;
+    cout << search_term;
     vector<string> record;
     ifstream file;
     file.open(file_name);
@@ -40,15 +42,10 @@ vector<string> reader(string file_name) {
         }
     }
 
-    string union_field = field_one + field_two + field_three + field_four + field_five;
-
     cout << "Timetable for ";
     for (auto i: record) {
         cout << i << '\n';
     }
-    string command = "espeak \"" + union_field + "\"";
-    const char *charCommand = command.c_str();
-    system(charCommand);
 
     return record;
 }
